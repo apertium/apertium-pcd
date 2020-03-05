@@ -1,0 +1,8 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-pcd
+
+Name: apertium-pcd
+Description: Finite-state morphological transducer and constraint grammar for pcd 
+Version: @VERSION@
+
