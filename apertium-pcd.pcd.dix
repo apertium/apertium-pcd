@@ -19,6 +19,8 @@
     <sdef n="pr"              c="Preposition"/>
     <sdef n="adv"             c="Adverb"/>
     <sdef n="ij"              c="Interjection"/>
+    <sdef n="pii"              c=""/>
+    <sdef n="pri"              c=""/>
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
 
@@ -98,16 +100,41 @@
 
   <pardefs>
     <!-- Define paradigms within <pardef> here. -->
-    <pardef n="house__n">
-      <e><p><l></l><r><s n="n"/><s n="attr"/></r></p></e>
-      <e><p><l></l><r><s n="n"/><s n="sg"/></r></p></e>
-      <e><p><l>s</l><r><s n="n"/><s n="pl"/></r></p></e>
+    <pardef n="/ète__vbser">
+      <e><p><l>ète</l><r>ète<s n="vbser"/><s n="inf"/></r></p></e>
+      <e><p><l>su</l><r>ète<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>es</l><r>ète<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>est</l><r>ète<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>sonmes</l><r>ète<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ètes</l><r>ète<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>sont</l><r>ète<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e v="nord"><p><l>éto</l><r>ète<s n="vbser"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e v="nord"><p><l>étos</l><r>ète<s n="vbser"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e v="nord"><p><l>étot</l><r>ète<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e v="nord"><p><l>étonmes</l><r>ète<s n="vbser"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e v="nord"><p><l>étotes</l><r>ète<s n="vbser"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e v="nord"><p><l>étotte</l><r>ète<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e v="sud"><p><l>étoé</l><r>ète<s n="vbser"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e v="sud"><p><l>étoés</l><r>ète<s n="vbser"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e v="sud"><p><l>étoét</l><r>ète<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e v="sud"><p><l>étoèmes</l><r>ète<s n="vbser"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e v="sud"><p><l>étoèes</l><r>ète<s n="vbser"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e v="sud"><p><l>étoètte</l><r>ète<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+    <pardef n="tch/k">
+      <e v="sud"><p><l>tch</l><r>tch</r></p></e>
+      <e v="nord"><p><l>k</l><r>k</r></p></e>
+    </pardef>
+    <pardef n="tchien__n_m">
+      <e><p><l></l><r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>s</l><r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
   </pardefs>
 
   <section id="main" type="standard">
     <!-- Define entries within <e> here. -->
-    <e lm="house"><i>house</i><par n="house__n"/></e>
+    <e lm="ète"><i></i><par n="/ète__vbser"/></e>
+    <e lm="tchien"><par n="tch/k"/><i>ien</i><par n="tchien__n_m"/></e>
   </section>
 
   <section id="final" type="inconditional">
