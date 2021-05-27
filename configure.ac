@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium pcd], [0.1.0], [ftyers@prompsit.com], [apertium-pcd], [http://wiki.apertium.org/wiki/Apertium-pcd])
+AC_INIT([Apertium pcd], [0.1.0], [ftyers@prompsit.com], [apertium-pcd], [https://wiki.apertium.org/wiki/Apertium-pcd])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S
